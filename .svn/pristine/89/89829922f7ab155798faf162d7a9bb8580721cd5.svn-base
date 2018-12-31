@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="nadvsrv">
+</Property><Property Name="Solution File" Value="D:\LPDEV\advsrv_393\nadvsrv\nadvsrv.sln">
+</Property><Property Name="User Options File" Value="D:\LPDEV\advsrv_393\nadvsrv\nadvsrv.suo">
+</Property><Property Name="Date" Value="jeudi 15 septembre 2011">
+</Property><Property Name="Time" Value="11:40">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="nadvsrv.sln" Description="File successfully backed up as D:\LPDEV\advsrv_393\nadvsrv\nadvsrv.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="nadvsrv.suo" Description="Error creating backup file: D:\LPDEV\advsrv_393\nadvsrv\nadvsrv.suo.old">
+</Event><Event ErrorLevel="0" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Converting project file 'D:\LPDEV\advsrv_393\nadvsrv\nadvsrv.vcproj'.">
+</Event><Event ErrorLevel="1" Project="nadvsrv" Source="nadvsrv.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Done converting to new project file 'D:\LPDEV\advsrv_393\nadvsrv\nadvsrv.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="nadvsrv" Source="nadvsrv.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="nadvsrv.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="nadvsrv.sln" Description="Converted">
+</Event></UpgradeLog>

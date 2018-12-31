@@ -1,0 +1,53 @@
+﻿Build started 29/05/2013 16:33:00.
+     1>Project "D:\LPDEV\advsrv\nadvsrv\nadvsrv.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\nadvsrv.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\nadvsrv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\notesapi_503\notesapi\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NADVSRV_EXPORTS /D W32 /D EVAL /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0700 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\advsrv.c ..\jobname.c ..\mwlang.c ..\notesdbts.c ..\procname.c
+         procname.c
+         notesdbts.c
+         mwlang.c
+         jobname.c
+         advsrv.c
+     1>d:\notesapi_503\notesapi\include\global.h(310): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h(197) : see previous definition of '_WIN32_WINNT'
+     1>d:\lpdev\advsrv\advsrv.c(1765): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\lpdev\advsrv\advsrv.c(1903): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\direct.h(124) : see declaration of 'mkdir'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0700 /l"0x0409" /nologo /fo"Debug\versioning.res" versioning.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\nadvsrv.dll.embed.manifest.res" Debug\nadvsrv_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\nadvsrv.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\notesapi_503\notesapi\lib\mswin32 notes.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../advsrv.def" /MANIFEST /ManifestFile:"Debug\nadvsrv.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\nadvsrv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\nadvsrv.lib" /MACHINE:X86 /DLL Debug\versioning.res
+         Debug\nadvsrv.dll.embed.manifest.res
+         Debug\advsrv.obj
+         Debug\jobname.obj
+         Debug\mwlang.obj
+         Debug\notesdbts.obj
+         Debug\procname.obj
+            Creating library Debug\nadvsrv.lib and object Debug\nadvsrv.exp
+       Manifest:
+         Deleting file "Debug\nadvsrv.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\nadvsrv.dll.embed.manifest" /manifest Debug\nadvsrv.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\nadvsrv.dll.embed.manifest.res" Debug\nadvsrv_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\nadvsrv.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\notesapi_503\notesapi\lib\mswin32 notes.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../advsrv.def" /MANIFEST /ManifestFile:"Debug\nadvsrv.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\nadvsrv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\nadvsrv.lib" /MACHINE:X86 /DLL Debug\versioning.res
+         Debug\nadvsrv.dll.embed.manifest.res
+         Debug\advsrv.obj
+         Debug\jobname.obj
+         Debug\mwlang.obj
+         Debug\notesdbts.obj
+         Debug\procname.obj
+         nadvsrv.vcxproj -> D:\LPDEV\advsrv\nadvsrv\Debug\nadvsrv.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\nadvsrv.unsuccessfulbuild".
+         Touching "Debug\nadvsrv.lastbuildstate".
+     1>Done Building Project "D:\LPDEV\advsrv\nadvsrv\nadvsrv.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93

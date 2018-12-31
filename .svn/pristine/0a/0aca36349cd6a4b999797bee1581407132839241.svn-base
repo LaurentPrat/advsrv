@@ -1,0 +1,11 @@
+﻿  advsrv.c
+..\advsrv.c(1893): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\advsrv.c(2031): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\direct.h(108): note: see declaration of 'mkdir'
+  jobname.c
+  mwlang.c
+  notesdbts.c
+  procname.c
+  Generating Code...
+     Creating library x64\Release\nadvsrv.lib and object x64\Release\nadvsrv.exp
+  nadvsrv.vcxproj -> C:\lpdev\nadvsrv\x64\Release\nadvsrv.dll

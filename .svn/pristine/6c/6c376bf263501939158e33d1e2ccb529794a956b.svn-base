@@ -1,0 +1,40 @@
+﻿Build started 29/05/2013 16:32:58.
+     1>Project "D:\LPDEV\advsrv\nadvsrv\nadvsrv.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\nadvsrv.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\nadvsrv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\notesapi_503\notesapi\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NADVSRV_EXPORTS /D W32 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0700 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /Zp1 /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\advsrv.c ..\jobname.c ..\mwlang.c ..\notesdbts.c ..\procname.c
+         advsrv.c
+     1>D:\notesapi_503\notesapi\include\global.h(310): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h(197) : see previous definition of '_WIN32_WINNT'
+     1>..\advsrv.c(1765): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\advsrv.c(1903): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : see declaration of 'mkdir'
+         jobname.c
+         mwlang.c
+         notesdbts.c
+         procname.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0700 /l"0x0409" /nologo /fo"Release\versioning.res" versioning.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\nadvsrv.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\notesapi_503\notesapi\lib\mswin32 notes.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../advsrv.def" /MANIFEST /ManifestFile:"Release\nadvsrv.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\LPDEV\advsrv\nadvsrv\Release\nadvsrv.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\nadvsrv.lib" /MACHINE:X86 /DLL Release\versioning.res
+         Release\advsrv.obj
+         Release\jobname.obj
+         Release\mwlang.obj
+         Release\notesdbts.obj
+         Release\procname.obj
+            Creating library Release\nadvsrv.lib and object Release\nadvsrv.exp
+         nadvsrv.vcxproj -> D:\LPDEV\advsrv\nadvsrv\Release\nadvsrv.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\nadvsrv.dll;#2" /manifest Release\nadvsrv.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\nadvsrv.unsuccessfulbuild".
+         Touching "Release\nadvsrv.lastbuildstate".
+     1>Done Building Project "D:\LPDEV\advsrv\nadvsrv\nadvsrv.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79

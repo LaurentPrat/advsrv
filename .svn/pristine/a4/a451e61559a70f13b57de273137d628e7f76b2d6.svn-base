@@ -1,0 +1,6 @@
+LIBRARY	nadvsrv
+EXPORTS
+    MainEntryPoint             @1
+    mw_EMHandlerProc           @2
+	mw_EMHandlerProcEval       @3
+	dummy_EMHandlerProc        @4
